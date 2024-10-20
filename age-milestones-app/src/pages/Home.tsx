@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { addDays, addWeeks } from 'date-fns';
 import { TextField, Button, Grid } from '@mui/material';
-import Milestone from '../components/Milestone';
+
 
 const Home: React.FC = () => {
   const [birthday, setBirthday] = useState<string>('');
