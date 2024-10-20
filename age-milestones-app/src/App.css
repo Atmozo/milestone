@@ -1,0 +1,40 @@
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f4f7;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.age-display, .milestones {
+  margin-top: 20px;
+}
+
+.age-display h2, .milestones h2 {
+  font-size: 1.8rem;
+  color: #0073e6;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+span {
+  font-size: 1.5rem;
+}
