@@ -5,7 +5,7 @@ interface MilestonesProps {
 }
 
 const Milestones: React.FC<MilestonesProps> = ({ birthDate }) => {
-  const calculateMilestone = (label: string, unit: string, multiplier: number) => {
+  const calculateMilestone = (label: string, _unit: string, multiplier: number) => {
     const milestoneDate = new Date(birthDate.getTime() + multiplier);
     return `${label}: ${milestoneDate.toLocaleDateString()} (${milestoneDate.toLocaleTimeString()})`;
   };

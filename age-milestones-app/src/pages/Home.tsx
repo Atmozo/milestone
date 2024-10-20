@@ -41,7 +41,7 @@ const Home: React.FC = () => {
       <Grid container spacing={2} style={{ marginTop: '20px' }}>
         {milestones.map((milestone, index) => (
           <Grid item xs={12} sm={6} key={index}>
-            <Milestone label={milestone.label} date={milestone.date} />
+            {/* <Milestone label={milestone.label} date={milestone.date} /> */}
           </Grid>
         ))}
       </Grid>
