@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AgeDisplay from './components/AgeDisplay';
 import Milestones from './components/Milestone';
 import './App.css';
+import LiveMusicVisualizer from './components/LiveMusicVisualize';
 
 const App: React.FC = () => {
   const [birthDate, setBirthDate] = useState<Date | null>(null);
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <>
           <AgeDisplay birthDate={birthDate} />
           <Milestones birthDate={birthDate} />
+          <LiveMusicVisualizer/>
         </>
       )}
     </div>
