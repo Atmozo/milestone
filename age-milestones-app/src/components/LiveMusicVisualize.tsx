@@ -19,7 +19,7 @@ const LiveMusicVisualize: React.FC = () => {
     svg.selectAll('rect')
       .data(data)
       .join('rect')
-      .attr('x', (d, i) => xScale(i))
+      .attr('x', ( i) => xScale(i))
       .attr('y', (d) => yScale(d))
       .attr('width', width / data.length - 2)
       .attr('height', (d) => height - yScale(d))
